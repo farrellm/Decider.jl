@@ -1,0 +1,13 @@
+name = "Decider"
+uuid = "d79568e5-b7e7-42c5-9b51-2b1542c20944"
+authors = ["Matthew Farrell <farrellm@alum.mit.edu> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
