@@ -1,6 +1,9 @@
+using Aqua
 using Decider
 using Test
 
 @testset "Decider.jl" begin
-    # Write your tests here.
+    @testset "Aqua" begin
+        Aqua.test_all(Decider)
+    end
 end

@@ -1,0 +1,9 @@
+[deps]
+Decider = "d79568e5-b7e7-42c5-9b51-2b1542c20944"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[sources]
+Decider = {path = ".."}
+
+[compat]
+Documenter = "1.17.0"
